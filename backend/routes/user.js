@@ -16,7 +16,7 @@ const signupBody = zod.object({
   password: zod.string()
 })
 
-router.post("signup", async (req,res) => {
+router.post("/signup", async (req,res) => {
   const body = req.body ;
   const {success } = signupSchema.safeParse(body);
   if(!success){
@@ -41,35 +41,37 @@ router.post("signup", async (req,res) => {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
   })
-  const userId = user._id; router.post("/signin", async (req, res) => {
-    const { success } = signinBody.safeParse(req.body)
-    if (!success) {
-      return res.status(411).json({
-        message: "Email already taken / Incorrect inputs"
-      })
-    }
+  const userId = user._id;
 
-    const user = await User.findOne({
-      username: req.body.username,
-      password: req.body.password
-    });
+  //  router.post("/signin", async (req, res) => {
+  //   const { success } = signinBody.safeParse(req.body)
+  //   if (!success) {
+  //     return res.status(411).json({
+  //       message: "Email already taken / Incorrect inputs"
+  //     })
+  //   }
 
-    if (user) {
-      const token = jwt.sign({
-        userId: user._id
-      }, JWT_SECRET);
+  //   const user = await User.findOne({
+  //     username: req.body.username,
+  //     password: req.body.password
+  //   });
 
-      res.json({
-        token: token
-      })
-      return;
-    }
+  //   if (user) {
+  //     const token = jwt.sign({
+  //       userId: user._id
+  //     }, JWT_SECRET);
+
+  //     res.json({
+  //       token: token
+  //     })
+  //     return;
+  //   }
 
 
-    res.status(411).json({
-      message: "Error while logging in"
-    })
-  })
+  //   res.status(411).json({
+  //     message: "Error while logging in"
+  //   })
+  // })
 
   const token = jwt.sign({
     userId
