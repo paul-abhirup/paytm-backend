@@ -1,13 +1,14 @@
 const express = require("express");
 const cors = require("cors");
+const rootRouter = require("./routes/index.js");
+const app = express();
 
 app.use(cors);
 app.use(express.json());//body parser
 
-const mainRouter = require("./routes/index.js");
-const app = express();
 
-app.use("/api/v1", mainRouter);
+
+app.use("/api/v1", rootRouter);
 
 // /api/v1/user/signup
 // /api/v1/user/signin
@@ -19,6 +20,8 @@ app.use("/api/v1", mainRouter);
 
 
 
-app.listen(3000);
+app.listen(3000,()=>{
+  console.log("i am the best")
+});
 
 
