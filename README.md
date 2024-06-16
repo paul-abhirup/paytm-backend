@@ -5,6 +5,8 @@
 
 BAckend server 
 
-![Screenshot from 2024-01-20 13-48-48](https://github.com/paul-abhirup/paytm/assets/109401471/3741620b-b500-461a-8a35-8f29dcb0f670)
-![Screenshot from 2024-01-20 13-49-53](https://github.com/paul-abhirup/paytm/assets/109401471/09e81f05-cea2-4485-84ad-18027b21c863)
-![Screenshot from 2024-01-20 13-50-20](https://github.com/paul-abhirup/paytm/assets/109401471/8cbba031-94d9-4b7e-b2d8-99e62d0683fb)
+![Screenshot from 2024-06-16 13-49-32](https://github.com/paul-abhirup/paytm/assets/109401471/195a3282-694d-4bcc-a36e-2e44bce013c7)
+![Screenshot from 2024-06-16 14-21-21](https://github.com/paul-abhirup/paytm/assets/109401471/e9a86273-bf7a-4052-b5a4-da67b40174a1)
+![Screenshot from 2024-06-16 14-42-00](https://github.com/paul-abhirup/paytm/assets/109401471/746f8fda-2b55-4c29-ba02-2d83201cce5e)
+![Screenshot from 2024-06-16 14-41-49](https://github.com/paul-abhirup/paytm/assets/109401471/2cd10f8a-b68f-4fde-938c-382348aec2f3)
+![Screenshot from 2024-06-16 14-41-53](https://github.com/paul-abhirup/paytm/assets/109401471/8d3a67ad-5d75-411d-8646-ce40880323f4)
