@@ -3,7 +3,7 @@
 - Documentation [https://projects.100xdevs.com/tracks/oAjvkeRNZThPMxZf4aX5/JLaLbhDuYn3h5Cn7WJu1]
 
 
-BAckend server 
+Backend server 
 
 ![Screenshot from 2024-06-16 13-49-32](https://github.com/paul-abhirup/paytm/assets/109401471/195a3282-694d-4bcc-a36e-2e44bce013c7)
 ![Screenshot from 2024-06-16 14-21-21](https://github.com/paul-abhirup/paytm/assets/109401471/e9a86273-bf7a-4052-b5a4-da67b40174a1)
